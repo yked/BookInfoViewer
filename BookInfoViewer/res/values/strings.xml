@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BookInfoViewer</string>
+    <string name="search_with_barcode_reader_button_label">Seaarch With Barcode Reader</string>
+    <string name="search_button_label">Search</string>
+    <string name="input_text_hint">Book name</string>
+    <string name="no_network_alert_title">No network connection</string>
+    <string name="no_network_alert_ok">OK</string>
+    <string name="no_result_message">No results</string>
+    <string name="error_message">Error</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="sales_date_title">発表日</string>
+    <string name="publisher_title">出版社</string>
+    <string name="author_title">著者</string>
+    <string name="isbn_title">ISBN</string>
+    <string name="price_title">価格</string>
+    <string name="caption_title">概要</string>
+    <string name="buy_button_label">この本を購入する</string>
+
+</resources>

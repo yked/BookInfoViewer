@@ -1,0 +1,151 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.barcodereadertest.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"     
+    android:orientation="vertical">
+    
+    <LinearLayout   
+    android:id="@+id/LinearLayout"  
+    android:orientation="vertical"      
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">      
+    
+    <TextView 
+  		android:textSize="@dimen/detail_book_name_text_size" 
+		android:id="@+id/book_name"		  		
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="@dimen/detail_book_name_margin_top"  		
+  		android:paddingLeft="@dimen/detail_elem_margin_left" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/detail_border_margin_top"
+        android:background="#ff808080" />
+
+    <TextView 
+  		android:textSize="@dimen/detail_title_text_size" 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"   		
+  		android:layout_marginLeft="@dimen/detail_elem_margin_left" 
+  		android:text="@string/author_title"/>
+     
+    <TextView 
+  		android:textSize="@dimen/detail_content_text_size" 
+		android:id="@+id/author"
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"   		
+  		android:layout_marginLeft="@dimen/detail_elem_margin_left" />    
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/detail_border_margin_top"
+        android:background="#ff808080" />
+
+    <TextView 
+  		android:textSize="@dimen/detail_title_text_size" 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"   		
+  		android:layout_marginLeft="@dimen/detail_elem_margin_left" 
+  		android:text="@string/publisher_title" />
+     
+    <TextView 
+  		android:textSize="@dimen/detail_content_text_size" 
+		android:id="@+id/publisher"		  		
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"   		
+  		android:layout_marginLeft="@dimen/detail_elem_margin_left" />    
+
+	<View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/detail_border_margin_top"
+        android:background="#ff808080" />
+
+    <TextView 
+  		android:textSize="@dimen/detail_title_text_size" 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"   		
+  		android:layout_marginLeft="@dimen/detail_elem_margin_left" 
+  		android:text="@string/sales_date_title"/>
+     
+    <TextView 
+  		android:textSize="@dimen/detail_content_text_size" 
+		android:id="@+id/sales_date"		  		
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"   		
+  		android:layout_marginLeft="@dimen/detail_elem_margin_left" />    
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/detail_border_margin_top"
+        android:background="#ff808080" />
+
+    <TextView 
+  		android:textSize="@dimen/detail_title_text_size" 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"   		
+  		android:layout_marginLeft="@dimen/detail_elem_margin_left" 
+  		android:text="@string/isbn_title"/>
+     
+    <TextView 
+  		android:textSize="@dimen/detail_content_text_size" 
+		android:id="@+id/isbn"		  		
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"   		
+  		android:layout_marginLeft="@dimen/detail_elem_margin_left" />
+	
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/detail_border_margin_top"
+        android:background="#ff808080" />
+
+    <TextView 
+  		android:textSize="@dimen/detail_title_text_size" 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"   		
+  		android:layout_marginLeft="@dimen/detail_elem_margin_left" 
+  		android:text="@string/price_title"/>
+     
+    <TextView 
+  		android:textSize="@dimen/detail_content_text_size" 
+		android:id="@+id/price"		  		
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"   		
+  		android:layout_marginLeft="@dimen/detail_elem_margin_left" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/detail_border_margin_top"
+        android:background="#ff808080" />
+
+    <TextView 
+  		android:textSize="@dimen/detail_title_text_size" 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"   		
+  		android:layout_marginLeft="@dimen/detail_elem_margin_left" 
+  		android:text="@string/caption_title"/>
+     
+    <TextView 
+  		android:textSize="@dimen/detail_content_text_size" 
+		android:id="@+id/caption"		  		
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content"   		
+  		android:layout_marginLeft="@dimen/detail_elem_margin_left" />
+    
+   	<Button
+      	android:id="@+id/buy_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/detail_buy_button_margin_top"
+        android:layout_marginBottom="@dimen/detail_buy_button_margin_bottom"
+        android:text="@string/buy_button_label" />  
+   
+     </LinearLayout>
+</ScrollView>
